@@ -1,0 +1,68 @@
+body {
+    background-color:#36464d;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0px;
+}
+.topnav {
+  display: flex;
+  background-color: #36464d;
+  max-height: 10vh;
+  padding: 20px 50px;
+  flex-flow: row wrap;
+  /*box-shadow: 0 1px 8px #ddd;*/
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.searchBar{
+  max-height: 5vh;
+  margin-left: 5px;
+  font-family: 'Water Brush', cursive;
+}
+.links{
+  width: 50%; /* 50% + 50% = 100% */
+  
+  display:flex;
+  justify-content: flex-start;
+}
+
+.searchSection{
+  width: 50%; /* 50% + 50% = 100% */
+  display: flex;
+  justify-content: center;
+}
+
+.img{
+  max-height: 5vh;
+  max-width: auto;
+}
+
+.topnav a {
+  display: flex;
+  font-family:'Noto Sans JP', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1vh 3vw;
+  text-decoration: none;
+  color: #715ba3;
+  transition: all 0.4s ease 0s; 
+}
+
+.YouTube {
+  width: 20vw;
+  height: 20vw;
+  border: 0;
+}
+
+.B00M {
+  width: 85%;
+  height: 2px;
+  background-color: #2f3638;
+  border: hidden;
+}
+
+.topnav a:hover {
+
+  color: #FFFFFF
+}
