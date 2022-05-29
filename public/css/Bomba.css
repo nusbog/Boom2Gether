@@ -15,7 +15,7 @@ body {
   align-items: center;
   text-align: center;
 }
-.searchBar{
+.searchNar{
   max-height: 5vh;
   margin-left: 5px;
   font-family: 'Water Brush', cursive;
@@ -55,7 +55,7 @@ body {
   border: 0;
 }
 
-.B00M {
+.big_line {
   width: 85%;
   height: 2px;
   background-color: #2f3638;
@@ -63,6 +63,40 @@ body {
 }
 
 .topnav a:hover {
-
   color: #FFFFFF
+}
+
+#userMsg {
+  position: fixed; 
+  bottom: 0;
+  border: none;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+#message {
+  list-style-type: none; 
+  margin-top: 5rem;
+  padding: 0; 
+  margin-left: 70%; 
+  font-family: 'Water Brush', cursive;
+  font-size: 1.5rem;
+  overflow-y: scroll;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#message > li { 
+  padding: 0.5rem 1rem;
+   
+}
+
+#message > li:nth-child(odd) {
+   background: #3d4e58; 
+}
+
+#player {
+  width: 50%;
+  margin-left: 5rem;
 }

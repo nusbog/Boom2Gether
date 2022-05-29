@@ -23,22 +23,24 @@
 <body>
     <div class="topnav">
         <div class="links">
-            <a href="#home">היים</a>
+            <a href="https://www.youtube.com/watch?v=yEJMEE0VIWQ">היים</a>
             <a href="https://youtu.be/5Qmu-dCjXWg?t=325">זוכן</a>
         </div>
         <div class="searchSection">
             <img class="img" src="resources/glass.png">               
-            <input class ="searchBar"type="text" placeholder="Search...">
+            <input id ="searchBar" class = "searchNar" type="text" placeholder="Search..." >
         </div>
         </div>
     </div>
-    
-    <hr class="B00M">
+
+    <hr class="big_line">
 
     <div id="player"></div>
+    
+    <ul id="message">
+    <input id="userMsg" placeholder="Message..."/>
 
     <script src="socket.io/socket.io.js"></script>
     <script src="js/app.js"></script>
-
 </body>
 </html>
